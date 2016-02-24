@@ -5,7 +5,7 @@ title: etckeeper
 # Plugin version
 version: '1.0.0'
 # Description
-description: Enable etckeeper on nodes for configuration tracking
+description: Enabled etckeeper on nodes for configuration tracking
 # Required fuel version
 fuel_version: ['7.0', '8.0']
 # Specify license of your plugin
