@@ -7,7 +7,7 @@ version: '1.0.0'
 # Description
 description: Enabled etckeeper on nodes for configuration tracking
 # Required fuel version
-fuel_version: ['7.0', '8.0']
+fuel_version: ['7.0', '8.0', '9.0']
 # Specify license of your plugin
 licenses: ['Apache License Version 2.0']
 # Specify author or company name
