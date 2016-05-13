@@ -4,7 +4,7 @@
   version: 2.0.0
   role: '*'
   required_for: [post_deployment_end]
-  requires: [enable_quorum]
+  requires: [post_deployment_start, enable_quorum]
   parameters:
     puppet_manifest: 'etckeeper_install.pp'
     puppet_modules: '/etc/puppet/modules'
