@@ -9,7 +9,6 @@
     puppet_manifest: 'etckeeper_install.pp'
     puppet_modules: '/etc/puppet/modules'
     timeout: 600
-    cwd: /
 
 - id: fuel-plugin-etckeeper-configure
   type: puppet
@@ -21,7 +20,6 @@
     puppet_manifest: 'etckeeper_configure.pp'
     puppet_modules: '/etc/puppet/modules'
     timeout: 600
-    cwd: /
 
 - id: fuel-plugin-etckeeper-commit
   type: puppet
@@ -40,4 +38,3 @@
     puppet_manifest: 'etckeeper_commit.pp'
     puppet_modules: '/etc/puppet/modules'
     timeout: 600
-    cwd: /
